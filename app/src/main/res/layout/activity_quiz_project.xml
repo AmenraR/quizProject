@@ -36,8 +36,9 @@
         android:layout_height="wrap_content"
         android:text="False"
         android:id="@+id/falseButton"
+        android:layout_toEndOf="@+id/question"
         android:layout_alignTop="@+id/trueButton"
-        android:layout_toRightOf="@+id/question"
-        android:layout_toEndOf="@+id/question" />
+        android:layout_alignLeft="@+id/question"
+        android:layout_alignStart="@+id/question" />
 
 </RelativeLayout>
